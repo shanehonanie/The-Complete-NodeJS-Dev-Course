@@ -129,7 +129,7 @@ describe('DELETE /todos/:id', () => {
             })
     });
 
-    it('should remove a todo2', (done) => {
+    it('should not remove a todo from other user', (done) => {
         var hexId = todos[0]._id.toHexString();
 
         request(app)
@@ -195,7 +195,6 @@ describe('PATCH /todos/:id', () => {
         request(app)
             .patch(`/todos/${hexId}`)
             .set('x-auth', users[1].tokens[0].token)
-            .expect(200)
             .send({
                 completed: true,
                 text

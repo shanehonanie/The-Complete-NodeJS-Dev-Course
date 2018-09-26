@@ -33,7 +33,7 @@ const todos = [{
     text: 'second test todo',
     completed: true,
     completedAt: 333,
-    creator: userTwoId
+    _creator: userTwoId
 }];
 
 const populateTodos = (done) => {
