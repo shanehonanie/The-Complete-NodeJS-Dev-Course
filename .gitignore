@@ -3,3 +3,5 @@ weather-app/node_modules
 node-web-server/node_modules
 node_modules
 mongo-data
+server/config/config.json
+node-todo-api/server/config/config.json
