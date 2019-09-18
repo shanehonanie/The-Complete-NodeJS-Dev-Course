@@ -1,8 +1,1 @@
-notes-node/node_modules
-weather-app/node_modules
-node-web-server/node_modules
-node_modules
-mongo-data
-server/config/config.json
-node-todo-api/server/config/config.json
-node-chat-app/node_modules
+notes-app/node_modules
